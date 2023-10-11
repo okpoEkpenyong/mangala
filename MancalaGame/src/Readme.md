@@ -38,6 +38,34 @@ Before running the game, make sure you have the following prerequisites:
 - Git
 - Android Studio (for JavaFX UI)
 
+## Setting Up Firebase Configuration
+
+To use Firebase in this project, you'll need to create a `firebase.json` file with your Firebase project's configuration. Follow these steps to set up the configuration:
+
+1. Go to the [Firebase Console](https://console.firebase.google.com/).
+
+2. Create a new Firebase project if you haven't already.
+
+3. Click on your project in the Firebase Console.
+
+4. In the project settings, navigate to the "General" tab.
+
+5. In the "Your apps" section, select the platform you're targeting (e.g., Web).
+
+6. Follow the setup instructions to generate your Firebase configuration.
+
+Once you've obtained the actual configuration values, create a `firebase.json` file in the root directory of your project and replace the placeholder values with your real Firebase credentials. Here's a sample structure for `firebase.json`:
+
+```json
+{
+  "apiKey": "YOUR_API_KEY",
+  "authDomain": "your-project-id.firebaseapp.com",
+  "projectId": "your-project-id",
+  "storageBucket": "your-project-id.appspot.com",
+  "messagingSenderId": "YOUR_MESSAGING_SENDER_ID",
+  "appId": "YOUR_APP_ID"
+}
+
 ### Installation
 
 1. Clone the repository to your local machine:
@@ -47,7 +75,7 @@ Before running the game, make sure you have the following prerequisites:
 
    ```
 
-1. Open the project in Android Studio.
+1. Open the project in Android Studio or Visual Studio Code if you've configured it for Java Dev.
 1. Build and run the project.
 
 **How to Play**
