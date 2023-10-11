@@ -17,7 +17,7 @@
 
 ## Introduction
 
-Welcome to the Mancala Game! This project is a Java-based implementation of the classic Mancala board game, with a focus on cross-platform compatibility, responsiveness, and accessibility. Mancala is a two-player turn-based strategy game where the objective is to capture as many stones as possible from your opponent's side of the board.
+Welcome to the Mancala Game! This project is a demo of a Java-based implementation of the classic Mancala board game, with a focus on cross-platform compatibility, responsiveness, and accessibility. Mancala is a two-player turn-based strategy game where the objective is to capture as many stones as possible from your opponent's side of the board.
 
 ## Features
 
